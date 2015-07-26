@@ -1,6 +1,6 @@
 #Getting and Cleaning Data Project
 
-The raw datafiles for the project were downloaded from >[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip]()
+The raw datafiles for the project were downloaded from >  [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip]()
 >using:
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(fileUrl,destfile="./data/Dataset.zip")
@@ -49,6 +49,7 @@ Expand column names to something more descriptive by replacing:
   *  "std", "StdDev"
     
 5.From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 Write out a new file: "tidydata.txt" as comma delimited
 
 
