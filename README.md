@@ -1,7 +1,7 @@
 #Getting and Cleaning Data Project
 
 The raw datafiles for the project were downloaded from [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip]()
-using:
+>using:
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(fileUrl,destfile="./data/Dataset.zip")
 unzip(zipfile="./data/Dataset.zip",exdir="./data")
